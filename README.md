@@ -13,41 +13,42 @@ The goal was to test how the app behaves in real usage, not just check happy pat
 
 ## Project Structure
 
-qa_suite/
-├── conftest.py
-├── requirements.txt
-├── mock_api_tests.py
-├── manual_test_cases.md
-│
-├── pages/
-│   ├── base_page.py
-│   ├── login_page.py
-│   ├── dashboard_page.py
-│   ├── client_page.py
-│   └── report_page.py
-│
-└── tests/
-    ├── test_login.py
-    ├── test_dashboard.py
-    └── test_clients_and_reports.py
-
+	qa_suite/
+	├── conftest.py
+	├── requirements.txt
+		├── mock_api_tests.py
+	├── manual_test_cases.md
+	│
+	├── pages/
+	│   ├── base_page.py
+	│   ├── login_page.py
+	│   ├── dashboard_page.py
+	│   ├── client_page.py
+	│   └── report_page.py
+		│
+	└── tests/
+	    ├── test_login.py
+	    ├── test_dashboard.py
+	    └── test_clients_and_reports.py
+	
   ## How to run
 
-  Install dependencies
-'''bash 
-pip install -r requirements.txt
+  Install dependencies: 
+  
+	  pip install -r requirements.txt
 
-##  Set credentials
-'''bash 
-  export RAJ_USERNAME="your_username"
-  export RAJ_PASSWORD="your_password"
+  Set credentials
+
+	export RAJ_USERNAME="your_username"	
+	export RAJ_PASSWORD="your_password"
+
 
 ## Other useful commands:
 
-pytest -m smoke -v
-pytest tests/ --headed -v
-pytest tests/ --browser firefox -v
-pytest tests/ -n 4 -v
+	pytest -m smoke -v	
+	pytest tests/ --headed -v
+	pytest tests/ --browser firefox -v
+	pytest tests/ -n 4 -v
 
 ## How I approached testing
 
