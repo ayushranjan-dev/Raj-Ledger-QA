@@ -52,7 +52,7 @@ The goal was to test how the app behaves in real usage, not just check happy pat
 
 ## How I approached testing
 
-  •	Focused on core flows: login, clients, payments, reports
+    •	Focused on core flows: login, clients, payments, reports
 	•	Tested both valid and invalid scenarios
 	•	Checked data consistency (totals, dues, updates)
 	•	Used automation for repeatable flows
