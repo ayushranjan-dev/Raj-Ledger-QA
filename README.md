@@ -1,4 +1,4 @@
-## electronics-web-app-testing - manual + mock API + Selenium POM automation.
+## Electronics-web-app-testing - manual + mock API + Selenium POM automation.
 
 ## What this project is
 
