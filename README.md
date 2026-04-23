@@ -1,8 +1,9 @@
-Add Raj Electronics full QA suite - manual + mock API + Selenium POM automation
+## Raj Electronics full QA suite - manual + mock API + Selenium POM automation.
 
 ## What this project is
 
-This is a QA project where I tested a real business web app (Raj Electronics Ledger).
+	This is a QA project where I tested a real business web app       
+	(https://rajdbg1971.netlify.app/).
 
 	I covered:
 	•	manual testing (test cases + edge cases)
