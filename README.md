@@ -1,6 +1,6 @@
 ## Electronics Web App Testing - Manual Testing Project
 
-## What this project is?
+What this project is?
 
 This is a manual QA testing project where I tested a real business web app:
 https://electronics-ledger.netlify.app/
