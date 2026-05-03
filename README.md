@@ -32,7 +32,6 @@ I covered:
 
 This project emphasizes practical QA thinking - how an actual user interacts with the system.
 
-⸻
 
 ## Test Coverage
 
@@ -46,16 +45,16 @@ Covers:
 * Reports and filters
 * Basic validation and error handling
 
-Known Issues (Found During Testing)
+## Known Issues (Found During Testing)
 
 * Double-click on “Add Team” creates duplicate entries
 * Dashboard values do not refresh automatically after updates
 * Sorting issues when values are treated as strings
 * Login error sometimes exposes raw backend message
 
-⸻
 
-Final
+
+## Final
 
 This project demonstrates:
 
